@@ -107,7 +107,8 @@ body {
 }
 
 .general-setting,
-.styling-setting {
+.styling-setting,
+.manage-setting {
   h3 {
     font-size: 18px;
     font-weight: 700;
@@ -149,5 +150,9 @@ body {
 }
 .mr-2 {
   margin-right: 8px;
+}
+
+.m-0 {
+  margin: 0;
 }
 </style>
