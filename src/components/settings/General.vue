@@ -11,7 +11,6 @@
           Name
         </template>
         <Input
-          size="large"
           allowClear
           v-model="form.name"
           placeholder="Please enter your name"
@@ -23,7 +22,6 @@
           VAT ID <span>| required for EU based companies</span>
         </template>
         <Input
-          size="large"
           allowClear
           v-model="form.vat"
           placeholder="Please enter VAT ID"
@@ -256,27 +254,6 @@ export default {
 
 <style lang="scss">
 .general-setting {
-  h3 {
-    font-size: 18px;
-    font-weight: 700;
-    text-align: center;
-    color: rgba(0, 0, 0, 0.87);
-  }
-
-  .mt-5 {
-    margin-top: 24px;
-  }
-
-  .form-group {
-    .flag {
-      margin-right: 8px;
-    }
-
-    .ant-select-selection__choice__content {
-      font-weight: 700;
-    }
-  }
-
   .credit-card {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;

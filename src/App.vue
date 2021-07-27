@@ -62,7 +62,11 @@ body {
 .ant-input:focus,
 .ant-select-focused .ant-select-selection,
 .ant-select-selection:focus,
-.ant-select-selection:active {
+.ant-select-selection:active,
+.ant-input-number:hover,
+.ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.ant-checkbox:hover .ant-checkbox-inner,
+.ant-checkbox-input:focus + .ant-checkbox-inner {
   border-color: rgba(72, 172, 150, 0.5) !important;
   box-shadow: none !important;
 }
@@ -72,6 +76,11 @@ body {
 .ant-btn.active {
   border-color: inherit !important;
   color: inherit !important;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #569789 !important;
+  border-color: #569789 !important;
 }
 
 .ant-btn.btn-main {
@@ -95,5 +104,50 @@ body {
 .ant-btn.btn-delete {
   box-shadow: 0 0 0 1px #f90066 inset !important;
   color: #f90066 !important;
+}
+
+.general-setting,
+.styling-setting {
+  h3 {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.87);
+  }
+
+  .form-group {
+    .flag {
+      margin-right: 8px;
+    }
+    label {
+      display: flex;
+      align-items: center;
+    }
+
+    .ant-select-selection__choice__content {
+      font-weight: 700;
+    }
+  }
+}
+
+// spacing
+
+.mt-5 {
+  margin-top: 24px;
+}
+
+.mb-5 {
+  margin-bottom: 24px;
+}
+
+.mt-3 {
+  margin-top: 16px;
+}
+
+.ml-2 {
+  margin-left: 8px;
+}
+.mr-2 {
+  margin-right: 8px;
 }
 </style>
